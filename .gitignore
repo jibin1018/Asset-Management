@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# 개인 금융 데이터 — 절대 커밋하지 않기
+backend/data/
+*.db
+*.sqlite3
+
+# Node
+node_modules/
+frontend/dist/
+
+# 환경변수 (API 키)
+.env
+.env.*
+
+# 편집기
+.vscode/
+.idea/
+.DS_Store
